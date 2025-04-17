@@ -1,5 +1,6 @@
 import sys  # Module qui permet d'accéder à des informations sur les erreurs, les arguments, etc.
-import logging
+
+
 # 🔧 Fonction pour créer un message d'erreur détaillé
 def error_message_detail(error, error_detail: sys):
     # Récupère les infos sur l'exception en cours
